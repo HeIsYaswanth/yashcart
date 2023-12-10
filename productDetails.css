@@ -1,0 +1,152 @@
+.product-details {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.product-image {
+  flex-basis: 35%;
+  display: inline-block;
+  text-align: center;
+}
+
+.product-image img {
+  width: 100%;
+}
+
+.product-content {
+  flex-basis: 60%;
+}
+
+.product-name h5 {
+  font-size: 40px;
+}
+
+.product-model {
+  font-size: 16px;
+}
+.product-price {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #3b3b3b;
+}
+
+.product-description-head {
+  margin-top: 10px;
+  font-size: 30px;
+  color: var(--jett-black);
+  text-decoration: underline dotted 1px #3b3b3b;
+}
+
+.product-description {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.add-to-cart {
+  margin-top: 20px;
+  max-width: 300px;
+  padding-left: 10px;
+}
+
+/*Media Queries*/
+
+@media (min-width: 370px) and (max-width: 439px) {
+  .product-details {
+    flex-direction: column !important;
+  }
+  .product-image img {
+    width: 100%;
+    padding: 10px;
+  }
+  .product-content {
+    flex-basis: 60%;
+    padding: 20px;
+  }
+
+  .product-name h5 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 440px) and (max-width: 576px) {
+  .product-details {
+    flex-direction: column !important;
+  }
+  .product-image img {
+    width: 100%;
+    padding: 15px;
+  }
+  .product-content {
+    flex-basis: 60%;
+    padding: 20px;
+  }
+
+  .product-name h5 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .add-to-cart {
+    margin-top: 20px;
+    max-width: 300px;
+    padding-left: 10px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .product-details {
+    flex-direction: column !important;
+  }
+  .product-image img {
+    width: 100%;
+  }
+  .product-content {
+    flex-basis: 60%;
+    padding: 20px;
+  }
+
+  .product-name h5 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .product-details {
+    flex-direction: column !important;
+  }
+  .product-image img {
+    width: 80%;
+    padding: 20px;
+  }
+  .product-content {
+    flex-basis: 60%;
+    padding: 20px;
+  }
+
+  .product-name h5 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+/*Optional*/
+@media (min-width: 320px) and (max-width: 369px) {
+  .product-details {
+    flex-direction: column !important;
+  }
+  .product-image img {
+    width: 100%;
+    padding: 10px;
+  }
+  .product-content {
+    flex-basis: 60%;
+    padding: 20px;
+  }
+
+  .product-name h5 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}

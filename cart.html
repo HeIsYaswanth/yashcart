@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <nav class="navbar">
+      <div class="container d-flex justify-content-between">
+        <a class="logo" href="yashcart.html"><div>Yash Cart</div></a>
+        <!--User Actions-->
+        <div
+          class="user-actions d-flex flex-row justify-content-center align-items-center gap-3"
+        >
+          <a href="logout.html" target="_blank"
+            ><div class="logout-btn">log out</div></a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!--Cart Design-->
+    <h2 class="cart-title">Your Cart</h2>
+    <div class="container">
+      <div class="cart-wrapper d-flex flex-row justify-content-between">
+        <div class="product-details-card d-flex flex-column">
+          <h3 class="details-card-head">Order Details</h3>
+          <!--product card-->
+          <hr style="margin: 0px 30px" />
+          <div class="product-card d-flex flex-row">
+            <div class="product-image-container d-flex">
+              <img src="ecom.webp" alt="product image" class="product-image" />
+            </div>
+            <div class="product-main-info d-flex flex-column">
+              <div class="product-name">Some Product</div>
+              <div class="product-price">&#8377; 10000</div>
+            </div>
+            <div class="product-secondary-info d-flex flex-column">
+              <div class="quantity">Quantity</div>
+              <select name="quantity" class="quantity-selector">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+              </select>
+              <a href="#" class="btn btn-danger">Remove</a>
+            </div>
+          </div>
+
+          <!--Copy and paste of product cards-->
+
+          <hr style="margin: 0px 30px" />
+          <div class="product-card d-flex flex-row">
+            <div class="product-image-container d-flex">
+              <img src="ecom.webp" alt="product image" class="product-image" />
+            </div>
+            <div class="product-main-info d-flex flex-column">
+              <div class="product-name">Some Product</div>
+              <div class="product-price">&#8377; 10000</div>
+            </div>
+            <div class="product-secondary-info d-flex flex-column">
+              <div class="quantity">Quantity</div>
+              <select name="quantity" class="quantity-selector">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+              </select>
+              <a href="remove.html" target="_blank" class="btn btn-danger"
+                >Remove</a
+              >
+            </div>
+          </div>
+
+          <hr style="margin: 0px 30px" />
+          <div class="product-card d-flex flex-row">
+            <div class="product-image-container d-flex">
+              <img src="ecom.webp" alt="product image" class="product-image" />
+            </div>
+            <div class="product-main-info d-flex flex-column">
+              <div class="product-name">Some Product</div>
+              <div class="product-price">&#8377; 10000</div>
+            </div>
+            <div class="product-secondary-info d-flex flex-column">
+              <div class="quantity">Quantity</div>
+              <select name="quantity" class="quantity-selector">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+              </select>
+              <a href="remove.html" target="_blank" class="btn btn-danger"
+                >Remove</a
+              >
+            </div>
+          </div>
+
+          <hr style="margin: 0px 30px" />
+          <div class="product-card d-flex flex-row">
+            <div class="product-image-container d-flex">
+              <img src="ecom.webp" alt="product image" class="product-image" />
+            </div>
+            <div class="product-main-info d-flex flex-column">
+              <div class="product-name">Some Product</div>
+              <div class="product-price">&#8377; 10000</div>
+            </div>
+            <div class="product-secondary-info d-flex flex-column">
+              <div class="quantity">Quantity</div>
+              <select name="quantity" class="quantity-selector">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+              </select>
+              <a href="remove.html" target="_blank" class="btn btn-danger"
+                >Remove</a
+              >
+            </div>
+          </div>
+
+          <hr style="margin: 0px 30px" />
+          <div class="product-card d-flex flex-row">
+            <div class="product-image-container d-flex">
+              <img src="ecom.webp" alt="product image" class="product-image" />
+            </div>
+            <div class="product-main-info d-flex flex-column">
+              <div class="product-name">Some Product</div>
+              <div class="product-price">&#8377; 10000</div>
+            </div>
+            <div class="product-secondary-info d-flex flex-column">
+              <div class="quantity">Quantity</div>
+              <select name="quantity" class="quantity-selector">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+              </select>
+              <a href="remove.html" target="_blank" class="btn btn-danger"
+                >Remove</a
+              >
+            </div>
+          </div>
+
+          <hr style="margin: 0px 30px" />
+          <div class="product-card d-flex flex-row">
+            <div class="product-image-container d-flex">
+              <img src="ecom.webp" alt="product image" class="product-image" />
+            </div>
+            <div class="product-main-info d-flex flex-column">
+              <div class="product-name">Some Product</div>
+              <div class="product-price">&#8377; 10000</div>
+            </div>
+            <div class="product-secondary-info d-flex flex-column">
+              <div class="quantity">Quantity</div>
+              <select name="quantity" class="quantity-selector">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+              </select>
+              <a href="remove.html" target="_blank" class="btn btn-danger"
+                >Remove</a
+              >
+            </div>
+          </div>
+
+          <!--end of copy and paste-->
+        </div>
+
+        <div class="pricebar-with-btn d-flex flex-column gap-5">
+          <div class="price-details-sidebar d-flex flex-column">
+            <div class="price-details-title fw-bold text-center">
+              Price Details
+            </div>
+            <div class="price-details d-flex flex-row gap-5">
+              <div class="price-category-wrapper d-flex flex-column gap-1">
+                <div class="price-tag">Price</div>
+                <div class="discount-tag">Discount</div>
+                <div class="delivery-charges-tag">Delivery Charges</div>
+                <div class="total-price-tag">Total Price</div>
+              </div>
+              <div
+                class="price-category-rupee-wrapper d-flex flex-column gap-1"
+              >
+                <div class="price-rupee-tag">&#8377; 10000</div>
+                <div class="discount-rupee-tag">&#8377; 1000</div>
+                <div class="delivery-charges-rupee-tag">&#8377; 200</div>
+                <div class="total-price-rupee-tag">&#8377; 9200</div>
+              </div>
+            </div>
+          </div>
+          <div class="price-btn d-flex flex-column gap-2">
+            <a
+              class="text-decoration-none continue-shopping-btn btn btn-info"
+              target="_blank"
+              href="allProducts.html"
+              >Continue Shopping</a
+            >
+            <a
+              class="checkout-btn btn btn-primary"
+              target="_blank"
+              href="address.html"
+              >Checkout</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

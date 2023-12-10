@@ -1,0 +1,130 @@
+:root {
+  --sky-blue: #dbf1ff;
+  --matte-black: #28282b;
+  --jett-black: #7e7e7e;
+}
+
+.heading h2 {
+  margin-top: 10px;
+  letter-spacing: 5px;
+  font-size: 35px;
+  font-weight: 550;
+}
+.login {
+  min-width: fit-content;
+  max-width: 400px;
+  margin: 30px auto;
+  background: #dcdcdc;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.login h4 {
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.signup {
+  color: black;
+}
+.signup:hover {
+  text-decoration: underline !important;
+  color: black;
+}
+.login-button {
+  color: white;
+  font-size: 20px;
+}
+.login-button:hover {
+  color: black;
+  font-size: 22px;
+  transition-duration: 0.2s;
+}
+
+/*Media Queries*/
+
+@media (min-width: 370px) and (max-width: 439px) {
+  .heading h2 {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 501;
+  }
+
+  .login {
+    min-width: fit-content;
+    max-width: 320px;
+    margin: 20px auto;
+    background: #dcdcdc;
+    padding: 25px;
+    border-radius: 5px;
+  }
+  .login h4 {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .signup {
+    font-size: 15px;
+  }
+  .login-button {
+    color: white;
+    font-size: 15px;
+  }
+  .login-button:hover {
+    color: black;
+    font-size: 18px;
+    transition-duration: 0.2s;
+  }
+}
+.login-button {
+  color: white;
+  font-size: 20px;
+}
+.login-button:hover {
+  color: black;
+  font-size: 22px;
+  transition-duration: 0.2s;
+}
+@media (min-width: 440px) and (max-width: 576px) {
+  .heading h2 {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 510;
+  }
+}
+/*Optional*/
+@media (min-width: 320px) and (max-width: 369px) {
+  .heading h2 {
+    margin-top: 10px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: 501;
+  }
+
+  .login {
+    min-width: fit-content;
+    max-width: 320px;
+    margin: 20px auto;
+    background: #dcdcdc;
+    padding: 25px;
+    border-radius: 5px;
+  }
+
+  .login h4 {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+  .signup {
+    font-size: 15px;
+  }
+  .login-button {
+    color: white;
+    font-size: 15px;
+  }
+  .login-button:hover {
+    color: black;
+    font-size: 18px;
+    transition-duration: 0.2s;
+  }
+}

@@ -1,0 +1,97 @@
+.animation {
+  width: 300px;
+  height: 300px;
+}
+
+.body {
+  margin: 50px 300px;
+  padding: 10px;
+  box-shadow: 0px 1px 5px var(--matte-black);
+}
+
+.logged-out {
+  font-size: 17px;
+  font-weight: 510;
+  letter-spacing: 2px;
+}
+
+.thanks {
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: 501;
+  letter-spacing: 2px;
+}
+.thanks span,
+.logged-out span {
+  color: #00ff96;
+}
+
+.thanks div {
+  margin-top: 20px;
+  font-size: 13px;
+  text-decoration: underline dotted;
+  margin-bottom: 40px;
+}
+
+/*Media Queries*/
+
+@media (min-width: 370px) and (max-width: 439px) {
+  .body {
+    margin: 50px 30px;
+    padding: 10px;
+    box-shadow: 0px 1px 5px var(--matte-black);
+  }
+  .thanks {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 501;
+    letter-spacing: 1px;
+  }
+  .logged-out {
+    font-size: 15px;
+    font-weight: 510;
+    letter-spacing: 1px;
+  }
+}
+@media (min-width: 440px) and (max-width: 576px) {
+  .body {
+    margin: 50px 30px;
+    padding: 10px;
+    box-shadow: 0px 1px 5px var(--matte-black);
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .body {
+    margin: 50px 50px;
+    padding: 10px;
+    box-shadow: 0px 1px 5px var(--matte-black);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .body {
+    margin: 50px 80px;
+    padding: 10px;
+    box-shadow: 0px 1px 5px var(--matte-black);
+  }
+}
+
+/*Optional*/
+@media (min-width: 320px) and (max-width: 369px) {
+  .body {
+    margin: 50px 20px;
+    padding: 10px;
+    box-shadow: 0px 1px 5px var(--matte-black);
+  }
+  .thanks {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 501;
+    letter-spacing: 1px;
+  }
+  .logged-out {
+    font-size: 15px;
+    font-weight: 510;
+    letter-spacing: 1px;
+  }
+}

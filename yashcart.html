@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>yash cart</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <!-- Home Page-->
+    <div class="homepage">
+      <!--Header-->
+      <nav class="navbar">
+        <div class="container d-flex justify-content-between">
+          <a class="logo" href="yashcart.html"><div>Yash Cart</div></a>
+          <!--User Actions-->
+          <div
+            class="user-actions d-flex flex-row justify-content-center align-items-center gap-3"
+          >
+            <a href="cart.html" target="_blank"><div class="cart">Cart</div></a>
+            <a href="login.html" target="_blank"
+              ><div class="login">Login</div></a
+            >
+            <a href="logout.html" target="_blank"
+              ><div class="logout-btn">log out</div></a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <content class="content">
+      <div class="heading"><h2>Welcome to Yash Cart</h2></div>
+      <p>Select the Category</p>
+    </content>
+
+    <!--Categories List-->
+
+    <!--Header-->
+    <nav class="category-list">
+      <!--User Actions-->
+      <div
+        class="user-actions d-flex flex-row justify-content-around align-items-center"
+      >
+        <div class="category">
+          <a href="allProducts.html" target="_blank">All Products</a>
+        </div>
+        <div class="category">
+          <a href="allProducts.html" target="_blank">Electronics</a>
+        </div>
+        <div class="category">
+          <a href="allProducts.html" target="_blank">Men's Zone</a>
+        </div>
+        <div class="category">
+          <a href="allProducts.html" target="_blank">Women's Zone</a>
+        </div>
+        <div class="category">
+          <a href="allProducts.html" target="_blank">Kid's Zone</a>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="allProducts.html" target="_blank"
+            ><img src="images/banner1.jpeg" class="d-block w-100" alt="..."
+          /></a>
+        </div>
+        <div class="carousel-item">
+          <a href="allProducts.html" target="_blank"
+            ><img src="images/banner2.webp" class="d-block w-100" alt="..."
+          /></a>
+        </div>
+        <div class="carousel-item">
+          <a href="allProducts.html" target="_blank"
+            ><img src="images/banner3.webp" class="d-block w-100" alt="..."
+          /></a>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Corousal Ended-->
+
+    <!--Deals Section-->
+    <div class="discount-wrapper">
+      <div class="discount-head"><h2>Top Deals</h2></div>
+      <div class="deal-cards">
+        <a
+          href="allProducts.html"
+          target="_blank"
+          class="deal-card d-inline-block text-decoration-none"
+        >
+          <div class="deal-image-container">
+            <img class="deal-image" src="ecom.webp" alt="product-image" />
+          </div>
+          <div class="deal-name text-center">Electronics</div>
+          <div class="deal-percentage text-center">Min 60% off</div>
+        </a>
+        <!--copy and paste of deal cards-->
+        <a
+          href="allProducts.html"
+          target="_blank"
+          class="deal-card d-inline-block text-decoration-none"
+        >
+          <div class="deal-image-container">
+            <img class="deal-image" src="ecom.webp" alt="product-image" />
+          </div>
+          <div class="deal-name text-center">Men's Wear</div>
+          <div class="deal-percentage text-center">Min 50% off</div>
+        </a>
+
+        <a
+          href="allProducts.html"
+          target="_blank"
+          class="deal-card d-inline-block text-decoration-none"
+        >
+          <div class="deal-image-container">
+            <img class="deal-image" src="ecom.webp" alt="product-image" />
+          </div>
+          <div class="deal-name text-center">Women's Wear</div>
+          <div class="deal-percentage text-center">Min 40%-60% off</div>
+        </a>
+
+        <a
+          href="allProducts.html"
+          target="_blank"
+          class="deal-card d-inline-block text-decoration-none"
+        >
+          <div class="deal-image-container">
+            <img class="deal-image" src="ecom.webp" alt="product-image" />
+          </div>
+          <div class="deal-name text-center">Kid's Wear</div>
+          <div class="deal-percentage text-center">Min 65% off</div>
+        </a>
+      </div>
+    </div>
+
+    <!--copy paste ended-->
+    <!--bank offer-->
+    <div class="b-example-divider"></div>
+    <div class="bank-container">
+      <a href="allProducts.html" target="_blank"
+        ><img src="bank.webp" alt="bankoffers"
+      /></a>
+    </div>
+    <!--ended-->
+
+    <!--footer-->
+
+    <div class="b-example-divider"></div>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted copyright"
+            >&copy; 2024 Yash Cart, Inc</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li>
+            <a
+              href="https://instagram.com/he_is_yaswanth?igshid=MzMyNGUyNmU2YQ=="
+              target="_blank"
+              ><img
+                class="instagram"
+                src="images/instagram.png"
+                alt="instagram icon"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/yaswanth-reddy-7237501aa/"
+              target="_blank"
+              ><img
+                class="linkedin"
+                src="images/linkedin.png"
+                alt="instagram icon"
+            /></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+
+    <!--footer ended-->
+    <!--Deals Section Ended-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
